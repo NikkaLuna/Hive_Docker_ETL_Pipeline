@@ -108,6 +108,11 @@ Making the scripts executable is a good practice, especially when sharing your p
 ## Expected Outcome
 At the end of this project, you should have a running Hive server within a Docker container, a populated Employee table in Hive, and the ability to query the data from the table. The data in the Employee table will reflect the contents of the emp.csv file.
 
+Below is a screenshot of the HiveServer2 interface showing the successful execution of queries. This verifies that the Hive server was correctly set up and the ETL process was completed as expected.
+
+![HiveServer2 Query Results](https://github.com/NikkaLuna/Hive_Docker_ETL_Pipeline/blob/main/HiveServer.png)
+
+
 ### Learning Objectives
 
 - **Docker**: Understand how to pull Docker images and run containers with specific configurations.
