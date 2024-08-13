@@ -23,9 +23,8 @@ Before you begin, ensure you have the following installed on your system:
    ```bash
    cd /home/project/data
    ```
-
-    3. **Download the Employee Data CSV**:
-    Use wget to download the emp.csv file, which contains Employee data in a comma-separated format.
+   3. **Download the Employee Data CSV**:
+   Use wget to download the emp.csv file, which contains Employee data in a comma-separated format.
 
 ```bash
 wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-BD0225EN-SkillsNetwork/data/emp.csv
@@ -110,10 +109,12 @@ Making the scripts executable is a good practice, especially when sharing your p
 At the end of this project, you should have a running Hive server within a Docker container, a populated Employee table in Hive, and the ability to query the data from the table. The data in the Employee table will reflect the contents of the emp.csv file.
 
 ### Learning Objectives
-Docker: Understand how to pull Docker images and run containers with specific configurations.
-Apache Hive: Learn how to set up a Hive server, create tables, and load data into Hive.
-SQL: Practice SQL commands within the Hive environment to manage and query data.
-ETL Process: Gain hands-on experience with the ETL process by loading data from a CSV file into a Hive table.
+
+- **Docker**: Understand how to pull Docker images and run containers with specific configurations.
+- **Apache Hive**: Learn how to set up a Hive server, create tables, and load data into Hive.
+- **SQL**: Practice SQL commands within the Hive environment to manage and query data.
+- **ETL Process**: Gain hands-on experience with the ETL process by loading data from a CSV file into a Hive table.
+
 
 ### Conclusion
-This project demonstrates a basic but powerful use case of Dockerized Hive for ETL processes. It provides a foundation for more advanced data processing workflows involving Apache Hive and other Big Data tools.
+This project demonstrates a foundational use case of Dockerized Hive for ETL processes. It provides the groundwork for more advanced data processing workflows involving Apache Hive and other Big Data tools.
