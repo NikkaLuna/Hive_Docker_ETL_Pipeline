@@ -6,7 +6,6 @@ This project demonstrates how to set up an Apache Hive server using Docker, crea
 ## Prerequisites
 Before you begin, ensure you have the following installed on your system:
 - Docker
-- Basic knowledge of shell commands
 
 ## Step-by-Step Instructions
 
